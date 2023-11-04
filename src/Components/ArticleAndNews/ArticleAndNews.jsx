@@ -5,6 +5,7 @@ import Button from '../Generics/Button'
 import img_womanmeetingroom from '@images/womanMeetingroom.svg'
 import img_chatGPT from '@images/chatGPT.svg'
 import img_PhoneAndbooks from '@images/PhoneAndBooks.svg'
+import ArticleAndNewsBox from './ArticleAndNewsBox'
 
 const ArticleAndNews = () => {
   return (
@@ -28,17 +29,12 @@ const ArticleAndNews = () => {
                             <div>
                                 <img src={img_womanmeetingroom} />
                             </div>
+                            
                             <div className="box-text">
-                                <div >Business</div>
-                                <div>
-                                    <h4>
-                                        How To Use Digitalization 
-                                        In The classNameroom  
-                                    </h4>
-                                    <p>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.  
-                                    </p>
-                                </div>
+                                <ArticleAndNewsBox 
+                                    text='Business' 
+                                    title='How To Use Digitalization In The classNameroom' 
+                                    description='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero' />                               
                             </div>
                         </div>
                         <div className="box-img">
@@ -52,16 +48,10 @@ const ArticleAndNews = () => {
                                 <img src={img_chatGPT} />
                             </div>
                             <div className="box-text">
-                                <div >Business</div>
-                                <div>
-                                    <h4>
-                                        How To Implement Chat GPT
-                                        In Your Projects 
-                                    </h4>
-                                    <p>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.  
-                                    </p>
-                                </div>
+                                <ArticleAndNewsBox 
+                                    text='Business' 
+                                    title='How To Use Implement Chat GPT In Your Project' 
+                                    description='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero' />                               
                             </div>
                         </div>
                         <div className="box-img">
@@ -75,16 +65,10 @@ const ArticleAndNews = () => {
                                 <img src={img_PhoneAndbooks} />                               
                             </div>
                             <div className="box-text">
-                                <div >Business</div>
-                                <div>
-                                    <h4>
-                                        The Guide To Support 
-                                        Modern CSS Design  
-                                    </h4>
-                                    <p>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.  
-                                    </p>
-                                </div>
+                                <ArticleAndNewsBox 
+                                    text='Business' 
+                                    title='The Guide To Support Modern CSS Design' 
+                                    description='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero' />                               
                             </div>
                         </div>
                     </div>

@@ -9,6 +9,8 @@ import WhyChooseUs from '../Components/WhyChooseUs/WhyChooseUs'
 import ProjectCaseStudies from '../Components/ProjectCaseStudies/ProjectCaseStudies'
 import MeetOurTeam from '../Components/MeetOurTeam/MeetOurTeam'
 import ArticleAndNews from '../Components/ArticleAndNews/ArticleAndNews'
+import GetNewUpdatesBySignup from '../Components/GetNewUpdatesBySignup/GetNewUpdatesBySignup'
+import Footer from '../Components/Footer/Footer'
 
 
 
@@ -28,6 +30,8 @@ const Home = () => {
       <ProjectCaseStudies />
       <MeetOurTeam />
       <ArticleAndNews />
+      <GetNewUpdatesBySignup />
+      <Footer/>
         
    </> 
   )

@@ -1,8 +1,14 @@
 import React from 'react'
 
-const ArticleAndNewsBox = () => {
+const ArticleAndNewsBox = ({text, title, description}) => {
   return (
-    <div>ArticleAndNewsBox</div>
+    <div className="box-text">
+      <div >{text}</div>
+        <div>
+          <h4>{title}</h4>
+            <p>{description}</p>
+      </div>
+    </div>
   )
 }
 

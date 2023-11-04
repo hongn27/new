@@ -1,0 +1,103 @@
+.footer{
+    padding-top: 120px;
+    height:513px;
+    background-color: #191919;
+     .container{
+        display: flex;
+        justify-content: space-between;
+        width: 1320px;   
+        height: 252px;
+        color: #ffffff;
+        .logo{
+            width: 340px;
+            height: 208px;
+           p{
+            margin-top: 26px;
+           }
+        }
+        ul{
+            align-items: start;
+            list-style: none;
+            padding: 0;
+            
+            li{
+                margin-bottom: 6px;
+                a{
+                    text-decoration: none;
+                    color: #dad9d3;
+                    font-size: 15px;
+                }
+            }
+        }      
+        .box{
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            
+            width:191px;    
+            height: 213px;
+            padding-top: 30px;
+           
+        }
+        .company{
+            width: 156px; 
+            height: 213px;  
+            h4{
+                margin-bottom: 30px;
+                font-weight: 600;
+            }
+        }
+    .line{
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+    }              
+    }
+    .line{
+        border: 1px solid #707070;
+        margin-top: 40px;      
+    }       
+    .container-socialmedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;      
+        height: 52px;
+        padding-left: 260px;
+        color: #dad9d3;
+        margin-top: 20px;
+    
+        .ikoner{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            width: 1320px;
+            p{
+                display: flex;
+                padding-top: 20px;
+                padding-left: 30px;
+            }        
+            .social-media {
+                justify-content: space-between;
+                a { 
+                    margin: 10px;
+                    color: #F0EFE9;
+                    font-size: 1.3rem;
+    
+                    &:hover {
+                      color: #666666;
+                  }
+                }  
+            }            
+        } 
+        .bg-wawy{
+            display: flex;
+            position: relative;
+            left: 141px;
+            bottom: 100px;       
+            width: 308px;
+            height: 107px;
+                   
+        }     
+    }     
+}
