@@ -1,0 +1,147 @@
+.meet-our-team {
+  display: flex;
+  margin-top: 90px;
+  padding-top: 110px;
+  padding-bottom: 90px;
+  background-color: #F0D082;
+}
+.meet-our-team .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 91px;
+  width: 1920px;
+  height: 1964px;
+  background-color: #F0D082;
+}
+.meet-our-team .container .box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: 1320px;
+  height: 765px;
+}
+.meet-our-team .container .box-1 .box-title {
+  display: flex;
+  justify-content: space-between;
+  width: 1320px;
+  height: 100px;
+}
+.meet-our-team .container .box-1 .box-title .title p {
+  color: #F94D1C;
+}
+.meet-our-team .container .box-1 .box-title .title h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+}
+.meet-our-team .container .box-1 .box-title .Button {
+  display: flex;
+  align-items: center;
+}
+.meet-our-team .container .box-1 .box-title .Button .btn-yellow {
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: 10px 30px;
+}
+.meet-our-team .container .box-1 .team-members {
+  display: flex;
+  justify-content: space-between;
+  width: 1320px;
+  height: 507px;
+  padding-top: 80px;
+}
+.meet-our-team .container .box-1 .team-members h4 {
+  font-weight: 600;
+  padding-top: 30px;
+}
+.meet-our-team .container .box-1 .dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 110px;
+  gap: 10px;
+}
+.meet-our-team .container .box-1 .dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #787272;
+}
+.meet-our-team .container .testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1520px;
+  height: 887px;
+  background-color: white;
+}
+.meet-our-team .container .testimonial .title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 640px;
+  height: 100px;
+}
+.meet-our-team .container .testimonial .title p {
+  color: #F94D1C;
+  margin-bottom: 30px;
+}
+.meet-our-team .container .testimonial .title h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.meet-our-team .container .testimonial .clients {
+  display: flex;
+  justify-content: space-between;
+  width: 1315px;
+  height: 402px;
+  margin-top: 15px;
+}
+.meet-our-team .container .testimonial .clients .box-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  height: 402px;
+}
+.meet-our-team .container .testimonial .clients .box-frame .box-content {
+  align-items: end;
+  width: 340px;
+  height: 306px;
+}
+.meet-our-team .container .testimonial .clients .box-frame .box-content .stars {
+  color: #F94D1C;
+  margin-bottom: 20px;
+}
+.meet-our-team .container .testimonial .clients .box-frame .box-content .text-1 {
+  font-size: 18px;
+  margin-bottom: 26px;
+}
+.meet-our-team .container .testimonial .clients .box-frame .box-content .box-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+.meet-our-team .container .testimonial .clients .box-frame .box-content .box-profile .img {
+  width: 70px;
+  height: 70px;
+}
+.meet-our-team .container .testimonial .clients .box-frame .box-content .box-profile .text-2 {
+  width: 240px;
+  height: 55px;
+}
+.meet-our-team .container .testimonial .clients .box-frame .box-content .box-profile .text-2 h4 {
+  font-weight: 600;
+}
+.meet-our-team .container .testimonial .clients .box-frame .box-content .box-profile .text-2 p {
+  color: #F94D1C;
+}
+.meet-our-team .container .testimonial .btn-reviews {
+  padding-top: 100px;
+}

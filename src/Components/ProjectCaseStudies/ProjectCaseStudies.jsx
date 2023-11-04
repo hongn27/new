@@ -11,7 +11,7 @@ import Button from '../Generics/Button'
 const ProjectCaseStudies = () => {
   return (
             <section className="project-case">
-                <div className="container border">
+                <div className="container">
                     <div className="project">
                         <SectionTitle title='Project & Case Studies' description='Lets Looks Our Global Projects' />
                     </div>

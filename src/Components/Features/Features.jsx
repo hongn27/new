@@ -13,7 +13,7 @@ const Features = () => {
   return (
     <section className="features">
             <div className="container">
-                <div className="box-features border">
+                <div className="box-features">
                     <SectionTitle title='Features'description='Our Accounting is trusted by thousand of companies' />
                     <Button type='yellow' title='Learn More' url='/Featuers' />
                 </div>

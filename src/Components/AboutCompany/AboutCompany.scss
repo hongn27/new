@@ -1,0 +1,88 @@
+.about-company{
+    padding-bottom: 150px;
+    .container{
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        flex-wrap: wrap;
+        .img-box {
+            height: 615px;
+            width: 533px; 
+            img {
+                width: 100%;
+                height: auto;
+            }
+            .overlay-box {
+                height: 180px;
+                width:368px;
+                background-color:#BEEBFF;
+                padding-left: 24px;
+                padding-right: 61px;
+                padding-top: 33px;
+                padding-bottom: 55px;
+                position: relative;
+                bottom: 215px;
+                
+                @media (min-width: 720px) {
+                    right: 60px;
+                    }
+                .name{
+                    color: 191919;
+                    font-family: "DM Sans", sans-serif;
+                    font-weight: 700;
+                    font-size: 20px;
+                }
+                .position {
+                    color: #f94d1c;
+                    font-family:"DM Sans", sans-serif;
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+                p{
+                    margin-top: 25px;
+                    font-style: italic;
+                    width: 320px;
+                    height: 47px;
+
+                }
+        }
+    }
+        .about-company-text{        
+            display: flex;
+            flex-direction: column;
+            height: 615px;
+            width: 533px;            
+            .title{
+                p{
+                    color: red;
+                }
+                h2{
+                    font-family:"DM Sans", sans-serif;
+                    font-size: 45px;
+                    font-weight: 600;  
+                }
+            }
+            p{ 
+                font-family: 'inter', sans-serif;
+                margin-bottom: 40px;
+                font-size: 16px;  
+            }
+        }  
+        .ac-buttons{
+            display: flex;           
+            padding-top: 10px;
+        }  
+            .btn-black{
+              width: 180px;
+              height: 56px;
+            }
+            
+            .video-text {
+                padding-top:20px;
+                margin-left: 20px;
+                font-family: 'inter', sans-serif;
+                font-size: 16px;
+            }      
+    }
+} 
