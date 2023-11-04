@@ -1,0 +1,69 @@
+.why-us {
+  padding-top: 61px;
+}
+.why-us .container {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  background-color: white;
+  gap: 116px;
+  width: 1620px;
+  height: 630px;
+}
+.why-us .container .box-left {
+  display: flex;
+  flex-direction: column;
+  width: 447px;
+  height: 628px;
+}
+.why-us .container .box-left .title {
+  align-self: flex-start;
+  width: 404px;
+  height: 153px;
+}
+.why-us .container .box-left .title p {
+  color: red;
+}
+.why-us .container .box-left .title h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+}
+.why-us .container .box-left .strategics-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 90px;
+  width: 420px;
+  height: 378px;
+}
+.why-us .container .box-left .strategics-info .box {
+  display: flex;
+  justify-content: space-between;
+  height: 63px;
+}
+.why-us .container .box-left .strategics-info .box-text h4 {
+  font-weight: 600;
+}
+.why-us .container .meeting {
+  display: flex;
+  align-items: end;
+  width: 1057px;
+  height: 603px;
+}
+.why-us .container .meeting .background-frame {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+  background-color: #F0EFE9;
+  width: 1057px;
+  height: 425px;
+}
+.why-us .container .meeting .overlay-img {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  padding-bottom: 97px;
+  padding-left: 97px;
+}

@@ -1,0 +1,54 @@
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.features .container {
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid #c9c9c9;
+  padding-top: 100px;
+  padding-left: 60px;
+  width: 1520px;
+  height: 600px;
+}
+.features .container .box-features {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 650px;
+  height: 303px;
+  margin-bottom: 200px;
+}
+.features .container .box-features .title p {
+  color: red;
+}
+.features .container .box-features .title h2 {
+  display: flex;
+  align-items: end;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+.features .container .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding-right: 60px;
+}
+.features .container .boxes .box {
+  display: flex;
+  justify-content: start;
+  width: 307px;
+  height: 220px;
+}
+.features .container .boxes .box-text {
+  width: 227px;
+  height: 165px;
+}
+.features .container .boxes .box-text h4 {
+  padding-top: 0px;
+  font-weight: 600;
+}

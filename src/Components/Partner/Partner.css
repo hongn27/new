@@ -1,0 +1,23 @@
+.logo-partners {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.logo-partners .container {
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+@media (min-width: 768px) {
+  .logo-partners .container {
+    display: block;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 1400px) {
+  .logo-partners .container {
+    display: flex;
+    margin-top: 50px;
+  }
+}

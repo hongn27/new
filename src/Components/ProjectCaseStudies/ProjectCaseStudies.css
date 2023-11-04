@@ -1,0 +1,65 @@
+.project-case {
+  padding-top: 120px;
+}
+.project-case .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 1320px;
+  height: 1272px;
+}
+.project-case .container .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-case .container .project p {
+  color: red;
+}
+.project-case .container .project h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.project-case .container .global-project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1320px;
+  height: 939px;
+}
+.project-case .container .global-project gap .project {
+  width: 645px;
+  height: 455px;
+}
+.project-case .container .global-project .child-project {
+  width: 645px;
+  height: 108px;
+  position: relative;
+}
+.project-case .container .global-project .child-project .line {
+  width: 100%;
+  height: 1px;
+  background-color: #d6c7c7;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.project-case .container .global-project .child-project h4 {
+  font-weight: 600;
+  padding-top: 20px;
+  font-size: 22px;
+}
+.project-case .container .global-project .child-project .btn-read-more {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  bottom: 10px;
+  right: 10px;
+}
+.project-case .container .global-project .child-project .btn-read-more i {
+  padding-left: 8px;
+}
+.project-case .container .btn-browse {
+  padding-top: 10px;
+}
