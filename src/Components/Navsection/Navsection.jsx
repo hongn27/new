@@ -34,7 +34,7 @@ const Navsection = () => {
                 </div>
                 <div className="main-menu">
                     <nav>
-                        <a href="home.html">Home</a>
+                        <a href="Home.html">Home</a>
                         <a href="Service.html">Service</a>
                         <a href="News.html">News</a>
                         <a href="Contacts.html">Contacts</a>

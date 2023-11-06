@@ -9,7 +9,6 @@ import img_JustinWilloman from '@images/JustinWilloman.svg'
 import img_CassandraWarren from '@images/CassandraWarren.svg'
 import img_AmandaTulling from '@images/AmandaTulling.svg'
 import img_JackMcDogglas from '@images/JackMcDogglas.svg'
-
 const MeetOurTeam = () => {
   return (
         <section className="meet-our-team">

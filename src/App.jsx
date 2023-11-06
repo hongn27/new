@@ -3,6 +3,8 @@ import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import Home from './views/Home'
 
 
+
+
 function App() {
    return (
     <>
@@ -10,6 +12,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/' element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>

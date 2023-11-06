@@ -13,8 +13,8 @@ const Showcase = () => {
         <div className="content">
           <h1>We Provide The Best Business Solutions</h1>
           <p>Establish your vision and value proposition and turn them into testable prototypes.</p>
-          <Button type='yellow' title='Get Consulting' url='/Get Consulting'/>
-          <Button type='transparant' title='Learn More' url='/Learn More'/>
+          <Button type='yellow' title='Get Consulting' url='/service'/>
+          <Button type='transparant' title='Learn More' url='/service'/>
         </div>
           <img src={showcase} />
       </div>
