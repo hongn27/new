@@ -12,10 +12,6 @@ import ArticleAndNews from '../Components/ArticleAndNews/ArticleAndNews'
 import GetNewUpdatesBySignup from '../Components/GetNewUpdatesBySignup/GetNewUpdatesBySignup'
 import Footer from '../Components/Footer/Footer'
 
-
-
-
-
 const Home = () => {
   return (
    <>

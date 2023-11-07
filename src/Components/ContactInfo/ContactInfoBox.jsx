@@ -9,7 +9,6 @@ const ContactInfoBox = ({title, description1, description2}) => {
              {description1}
              <br></br>
              {description2}
-
             </div>
         </div>                
     </div> 
