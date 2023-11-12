@@ -4,7 +4,7 @@ import './Location.css'
 
 const Location = () => {
   return (
-    <div className='container'>
+    <div className='container mt-5'>
     <img src={img_map} />
     </div>
     

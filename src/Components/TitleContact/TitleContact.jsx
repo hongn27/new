@@ -6,13 +6,13 @@ import img_backgroundLinesLeft from '@images/background-lines.svg'
 
 const TitleContact = () => {
   return (
-    <div className='title'>
+    <div className='titlecontact'>
       <div className="background-lines">
       <img src={img_backgroundLinesLeft} />
         </div>          
       <div className='container'>
         <p>Home Contact</p>
-        <h2>Let’s Connect</h2> 
+        <h2>Let's Connect</h2> 
          
       </div>
         

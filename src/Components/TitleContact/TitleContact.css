@@ -1,14 +1,14 @@
-.title {
+.titlecontact {
   display: flex;
   background-color: #F0EFE9;
 }
-.title .background-lines {
+.titlecontact .background-lines {
   display: flex;
   align-items: end;
   position: relative;
   left: 500px;
 }
-.title .container {
+.titlecontact .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +17,7 @@
   margin-top: 113px;
   margin-bottom: 113px;
 }
-.title .container h2 {
+.titlecontact .container h2 {
   font-size: 56px;
   font-weight: 700;
 }
