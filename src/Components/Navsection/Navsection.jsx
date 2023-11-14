@@ -1,12 +1,15 @@
 import './Navesections.css'
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import Crito from '@images/logotype.svg'
 import Button from '../Generics/Button'
+
 
 const Navsection = () => {
   return (
         <div className='NavSection'>
         <div className="container">
+            <link to="/" />
             <img src={Crito} />
             <button className="menu-bars"><i className="fa-solid fa-bars-staggered"></i></button>
             <div className="menu">
@@ -34,10 +37,10 @@ const Navsection = () => {
                 </div>
                 <div className="main-menu">
                     <nav>
-                        <a href="Home.html">Home</a>
-                        <a href="Service.html">Service</a>
-                        <a href="News.html">News</a>
-                        <a href="Contacts.html">Contacts</a>
+                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/Service">Service</NavLink>
+                        <NavLink to="/News">News</NavLink>
+                        <NavLink to="/Contact">Contact</NavLink>
                     </nav>
                         <Button type='yellow' title='Login' url='/Login' />
                 </div>

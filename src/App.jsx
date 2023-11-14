@@ -1,6 +1,9 @@
 import './App.css'
 import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import Home from './views/Home'
+import Contact from './views/Contact'
+import Service from'./views/Service'
+
 
 
 
@@ -8,11 +11,12 @@ import Home from './views/Home'
 function App() {
    return (
     <>
-      <div className='wrapper'></div>
+      
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/' element={<Contact />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/service' element={<Service />} />
         </Routes>
       </BrowserRouter>
     </>

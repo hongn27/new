@@ -14,7 +14,7 @@ import Footer from '../Components/Footer/Footer'
 
 const Home = () => {
   return (
-   <>
+   <div className='wrapper'>
       
       <Navsection />
       <Showcase />
@@ -29,7 +29,7 @@ const Home = () => {
       <GetNewUpdatesBySignup />
       <Footer/>
         
-   </> 
+   </div> 
   )
 }
 

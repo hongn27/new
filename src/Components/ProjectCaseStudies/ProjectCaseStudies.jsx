@@ -12,7 +12,7 @@ const ProjectCaseStudies = () => {
   return (
             <section className="project-case">
                 <div className="container">
-                    <div className="project border">
+                    <div className="project">
                         <SectionTitle title='Project & Case Studies' description='Lets Looks Our Global Projects' />
                     </div>
                     <div className="global-project">

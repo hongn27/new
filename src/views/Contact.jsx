@@ -11,14 +11,14 @@ import ContactForm from '../Components/ContactForm/ContactForm'
 
 const Contact = () => {
   return (
-    <>
+    <div className='wrapper'>
         <Navsection />
         <TitleContact />
         <ContactInfo />
         <ContactForm />
         <Location />
         <Footer />
-    </>
+    </div>
   )
 }
 

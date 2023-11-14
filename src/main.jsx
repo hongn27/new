@@ -12,11 +12,12 @@ import NotFound from './views/NotFound.jsx';
 
 
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-      
+       
         <Route path='App' element={<App />} />
         <Route path='/' element={<Home />} />
         <Route path='/service' element={<Service />} />
@@ -26,5 +27,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         
       </Routes>
     </BrowserRouter>
+
   </React.StrictMode>
 );

@@ -3,7 +3,6 @@
     justify-content: center;
     background-color: #F0EFE9;
     align-items: center;   
-    height: 270px;
     .container{ 
         display: flex;
         .title{
@@ -11,12 +10,13 @@
         align-items: center;
         justify-content: space-between;
         width: 1270px;  
-        height: 60px;
+        height: 270px;
         h2{
             width: 741px;
             height: 60px;              
             font-weight: 600;
             font-size: 45px;
+            padding-left: 30px;
         }    
         }
         .search-subscribe{
@@ -65,7 +65,7 @@
             display: flex;
             position: relative;
             left: 230px;
-            top: 40px;
+            top: 140px;
             width: 155px;
             height: 68px;
             color: #191919;
