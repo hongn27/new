@@ -1,9 +1,8 @@
 .meet-our-team{
-    display: flex;
-    margin-top: 90px;
-    padding-top: 70px;
-    padding-bottom: 90px;
-    background-color: #F0D082; 
+    background-color: #F0D082;
+    padding-top: 113px;
+    padding-bottom: 50x; 
+    margin-top: 86px;
     .container{
         display: flex; 
         flex-direction: column;
@@ -11,7 +10,7 @@
         justify-items: center;
         gap: 91px;
         width: 1920px;
-        height: 1964px;        
+        height: 764px;        
         background-color: #F0D082;       
         .box-1{
             display: flex;
@@ -41,7 +40,9 @@
                     .btn-yellow{
                         border: 1px solid black;
                         border-radius: 30px;
-                        margin: 10px 30px;                 
+                        margin: 10px 30px;  
+                        width: 221px;
+                        height: 56px;               
                     }                                         
                 }               
             }
@@ -70,84 +71,6 @@
                 background-color:#787272;                             
             }          
         }
-        .testimonial{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            width: 1520px;
-            height: 887px;
-            background-color: white;
-            .title{
-                display: flex;
-                justify-content: center;
-                flex-direction: column;
-                align-items: center;
-                width: 640px;
-                height: 100px;
-                p{
-                    color: #F94D1C;
-                    margin-bottom: 30px;
-                }                              
-                h2{
-                    font-size: 45px;
-                    font-weight: 600;
-                }        
-            }
-           .clients{
-                display: flex;
-                justify-content: space-between;
-                width: 1315px;
-                height: 402px;
-                margin-top: 15px;
-                .box-frame{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 420px;
-                    height: 402px;
-                    .box-content{
-                        align-items: end;
-                        width: 340px;   
-                        height: 306px;
-                        .stars{
-                            color: #F94D1C;
-                            margin-bottom: 20px;
-                        }
-                        .text-1{
-                            font-size: 18px;
-                            margin-bottom: 26px;
-                        }
-                        .box-profile{
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-                            margin-top: 70px;
-                            .img{
-                                width: 70px;
-                                height: 70px;
-                            }
-                            .text-2{
-                                width: 240px;
-                            height: 55px;
-                            h4{
-                                font-weight: 600;
-                            }
-                            p{
-                                color: #F94D1C;                
-                            }
-                            }
-                        }
-                           
-                    } 
-                    
-                    
-                }
-           }
-            .btn-reviews{
-                padding-top: 100px;
-
-            }                  
-        }    
+           
     }         
 }   

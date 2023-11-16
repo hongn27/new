@@ -57,9 +57,18 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-top: 20px;
   width: 1021px;
   height: 56px;
   background-color: #F9D783;
   border-radius: 30px;
   font-size: 17px;
+}
+.contactForm .container .isSent {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(112, 175, 17);
 }

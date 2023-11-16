@@ -11,6 +11,7 @@ import MeetOurTeam from '../Components/MeetOurTeam/MeetOurTeam'
 import ArticleAndNews from '../Components/ArticleAndNews/ArticleAndNews'
 import GetNewUpdatesBySignup from '../Components/GetNewUpdatesBySignup/GetNewUpdatesBySignup'
 import Footer from '../Components/Footer/Footer'
+import Testimonial from '../Components/Testimonial/Testimonial'
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <WhyChooseUs />
       <ProjectCaseStudies />
       <MeetOurTeam />
+      <Testimonial />
       <ArticleAndNews />
       <GetNewUpdatesBySignup />
       <Footer/>

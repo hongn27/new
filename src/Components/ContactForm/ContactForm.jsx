@@ -2,12 +2,14 @@ import './ContactForm.css'
 import React, { useState } from 'react'
 
 
+
 const ContactForm = () => {
     const [name, setName]= useState('')
     const [nameError, setNameError]= useState(false)
     const [email, setEmail]= useState('')
     const [emailError, setEmailError]= useState(false)
     const [message, setMessage] = useState('')
+    const [isSent, setIsSent] = useState(false);
     const [messageError, setMessageError]= useState(false)
     const [errorMessage, setErrorMessage] = useState('')
 
@@ -54,8 +56,12 @@ const ContactForm = () => {
 
         switch (result.status){
             case 200:
-                clearForm()
-                alert('Formuläret har skickats.')
+                setIsSent(true);
+                form.resetForm();
+                setTimeout(() => {
+                    setIsSent(false);
+                }, 2000)
+                console.log('Meddelandet har skickats') 
                 break
             case 400:
                 setErrorMessage(`Något gick fel. Vänligen kontrollera värderna`)
@@ -96,7 +102,14 @@ const ContactForm = () => {
                         <span className={`${messageError ? 'error' : ''} `}>{ ` ${messageError ? 'Meddelandet är för kort' : ''} `} </span>
                     </div> 
                     <button className='submit'>Send Message<i className='fa-regular fa-arrow-up-right'></i></button>
-                    
+                    <div className="isSent">
+                    {
+                        isSent &&
+                        <>
+                            <div className='isSent'>Thank you for your message!</div>
+                       </>           
+                    }
+                </div>                   
                 </form>
                 
             </div>

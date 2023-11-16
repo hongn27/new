@@ -5,19 +5,10 @@
 .titlecontact .background-lines {
   display: flex;
   align-items: end;
-  position: relative;
-  left: 80px;
 }
 .titlecontact .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  position: relative;
-  right: 400px;
-  margin-top: 113px;
-  margin-bottom: 113px;
-}
-.titlecontact .container h2 {
-  font-size: 56px;
-  font-weight: 700;
 }

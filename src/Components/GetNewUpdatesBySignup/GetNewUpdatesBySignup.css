@@ -38,6 +38,9 @@
   height: 56px;
   border-radius: 40px;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
 .sign-up .container .search-subscribe .btn-subscribe {
   display: flex;
