@@ -31,10 +31,7 @@ const ArticleAndNews = () => {
                             </div>
                             
                             <div className="box-text">
-                                <ArticleAndNewsBox 
-                                    text='Business' 
-                                    title='How To Use Digitalization In The classNameroom' 
-                                    description='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero' />                               
+                                <ArticleAndNewsBox text='Business' title='How To Use Digitalization In The classNameroom' description='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero' />                               
                             </div>
                         </div>
                         <div className="box-img">
