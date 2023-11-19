@@ -1,5 +1,6 @@
 import React from 'react'
 import img_page_not_found from '@images/page-not-found.png'
+import { Link } from 'react-router-dom'
 import Footer from '../Components/Footer/Footer'
 
 
@@ -8,7 +9,8 @@ const NotFound = () => {
     <div>
     <h1>404 Page Not Found!</h1>
     <img src={img_page_not_found} />
-    <button className='yellow' href= 'home.html'>Go to Home</button>
+    <Link to='/'><button >Go to Home</button>
+    </Link> 
     
     <Footer />
    

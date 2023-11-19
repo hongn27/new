@@ -1,0 +1,11 @@
+.pagesContent {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  gap: 30px;
+}
+.pagesContent .a {
+  border: 1px solid #EAE9F2;
+  width: 38px;
+  height: 38px;
+}
